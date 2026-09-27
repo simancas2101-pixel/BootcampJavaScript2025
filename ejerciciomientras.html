@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio ciclo mientras </title>
+
+</head>
+<body>
+
+    <script>
+
+let suma=0;
+
+let continuar=true;
+
+while(continuar){
+
+    let entrada=prompt("ingrese un numero o escriba la palabra salir para finalizar el programa");
+
+    if(entrada.toLowerCase()==="salir")
+
+    continuar=Falso;
+
+    else{
+
+        let numero=parseFloat(entrada);
+
+        suma+=numero;
+
+        alert("numero añadido es " + suma);
+
+
+    }
+
+}
+
+
+    </script>
+
+
+</body>
+</html>
